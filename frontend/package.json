@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "solarsentinel-ai",
+  "description": "AI-Powered Solar Panel Fault & Condition Detection",
   "private": true,
   "version": "0.0.0",
   "type": "module",

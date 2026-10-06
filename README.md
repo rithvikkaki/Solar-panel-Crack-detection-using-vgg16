@@ -1,6 +1,8 @@
-# SolarSentinel AI: Scientifically Rigorous VGG16-Based Solar Panel Fault Classification & Explainability
+# SolarSentinel AI
 
-> **An empirical deep learning project investigating transfer learning, feature representation, data leakage prevention, and model interpretability for automated photovoltaic defect triage.**
+### AI-Powered Solar Panel Fault & Condition Detection
+
+> The system uses VGG16 to classify solar-panel images into six condition categories and uses Grad-CAM for visual explanations.
 
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://www.tensorflow.org/)

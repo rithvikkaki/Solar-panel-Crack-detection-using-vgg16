@@ -28,13 +28,10 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-lg tracking-tight text-white">SolarSentinel</span>
-              <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-amber-500/15 text-amber-400 border border-amber-500/30 rounded-md">
-                VGG16 AI
-              </span>
+              <span className="font-bold text-lg tracking-tight text-white">SolarSentinel AI</span>
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
-              Photovoltaic Health & Explainable Defect Attribution
+              AI-Powered Solar Panel Fault & Condition Detection
             </p>
           </div>
         </div>

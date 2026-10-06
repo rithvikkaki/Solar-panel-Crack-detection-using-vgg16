@@ -14,6 +14,7 @@ class Settings(BaseSettings):
 
     # Project metadata
     PROJECT_NAME: str = "SolarSentinel AI"
+    PROJECT_DESCRIPTION: str = "AI-Powered Solar Panel Fault & Condition Detection"
     VERSION: str = "1.0.0"
     API_V1_STR: str = "/api/v1"
     APP_ENV: str = "development"

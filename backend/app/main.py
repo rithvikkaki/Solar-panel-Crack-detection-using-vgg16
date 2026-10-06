@@ -39,8 +39,9 @@ app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
     description=(
-        "Production AI Platform for Photovoltaic (PV) Solar Panel Condition Inspection "
-        "and Explainable Defect Attribution using Deep Learning (VGG16) and Grad-CAM."
+        "AI-Powered Solar Panel Fault & Condition Detection. "
+        "The system uses VGG16 to classify solar-panel images into six condition categories "
+        "and uses Grad-CAM for visual explanations."
     ),
     openapi_url=f"{settings.API_V1_STR}/openapi.json",
     docs_url="/docs",

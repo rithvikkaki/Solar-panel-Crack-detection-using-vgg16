@@ -75,7 +75,7 @@ export const App: React.FC = () => {
           <div className="flex items-center gap-2">
             <span className="font-semibold text-slate-400">SolarSentinel AI</span>
             <span>•</span>
-            <span>Explainable AI-Powered Solar Panel Health & Fault Intelligence Platform</span>
+            <span>AI-Powered Solar Panel Fault & Condition Detection</span>
           </div>
 
           <div className="text-center sm:text-right text-[11px] text-slate-600">
