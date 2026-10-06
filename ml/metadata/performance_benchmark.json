@@ -1,0 +1,33 @@
+{
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "os": "Windows 10",
+    "python_version": "3.10.0",
+    "tensorflow_version": "3.12.4",
+    "iterations": 30,
+    "warmup_iterations": 5,
+    "hardware_notice": "Latency results are hardware-dependent and reflect CPU execution."
+  },
+  "model_loading_time_ms": 581.6,
+  "inference_latency_ms": {
+    "mean": 125.65,
+    "min": 117.79,
+    "max": 134.26,
+    "p50": 125.63,
+    "p95": 131.79
+  },
+  "gradcam_latency_ms": {
+    "mean": 494.22,
+    "min": 471.89,
+    "max": 526.26,
+    "p50": 492.59,
+    "p95": 516.11
+  },
+  "total_pipeline_latency_ms": {
+    "mean": 619.87,
+    "min": 591.31,
+    "max": 653.48,
+    "p50": 619.4,
+    "p95": 646.77
+  }
+}

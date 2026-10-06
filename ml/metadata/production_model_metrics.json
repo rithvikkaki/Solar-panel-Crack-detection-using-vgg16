@@ -1,0 +1,119 @@
+{
+  "model_name": "SolarSentinel VGG16 Deep Transfer Learning (Exp 2 Head B)",
+  "model_id": "vgg16_head_b_photometric_production",
+  "model_version": "2.2.0",
+  "model_path": "ml/models/best_vgg16.keras",
+  "architecture": "VGG16",
+  "input_shape": [
+    244,
+    244,
+    3
+  ],
+  "gradcam_target_layer": "block5_conv3",
+  "dataset_split": "ml/metadata/split_manifest_70_15_15.json",
+  "test_samples": 131,
+  "metrics": {
+    "accuracy": 0.855,
+    "macro_f1": 0.8503,
+    "weighted_f1": 0.8542,
+    "precision_macro": 0.8493,
+    "recall_macro": 0.8555,
+    "precision_weighted": 0.8586,
+    "recall_weighted": 0.855
+  },
+  "validation_metrics": {
+    "accuracy": 0.8779,
+    "macro_f1": 0.8943,
+    "weighted_f1": 0.8767,
+    "physical_damage_recall": 0.9,
+    "physical_damage_f1": 0.9474
+  },
+  "per_class_metrics": {
+    "Bird-drop": {
+      "precision": 0.9259,
+      "recall": 0.8065,
+      "f1_score": 0.8621,
+      "support": 31
+    },
+    "Clean": {
+      "precision": 0.8235,
+      "recall": 0.9655,
+      "f1_score": 0.8889,
+      "support": 29
+    },
+    "Dusty": {
+      "precision": 0.8077,
+      "recall": 0.75,
+      "f1_score": 0.7778,
+      "support": 28
+    },
+    "Electrical-damage": {
+      "precision": 0.8667,
+      "recall": 0.8667,
+      "f1_score": 0.8667,
+      "support": 15
+    },
+    "Physical-Damage": {
+      "precision": 0.7273,
+      "recall": 0.8,
+      "f1_score": 0.7619,
+      "support": 10
+    },
+    "Snow-Covered": {
+      "precision": 0.9444,
+      "recall": 0.9444,
+      "f1_score": 0.9444,
+      "support": 18
+    }
+  },
+  "confusion_matrix": [
+    [
+      25,
+      0,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      28,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      4,
+      21,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      13,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      8,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      17
+    ]
+  ]
+}

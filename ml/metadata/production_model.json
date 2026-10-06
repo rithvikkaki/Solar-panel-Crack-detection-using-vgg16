@@ -1,0 +1,29 @@
+{
+  "model_id": "vgg16_res384_block5_production",
+  "model_name": "SolarSentinel VGG16 Deep Transfer Learning (High-Resolution 384x384)",
+  "model_version": "3.0.0",
+  "model_path": "ml/models/best_vgg16.keras",
+  "architecture": "VGG16",
+  "input_shape": [
+    384,
+    384,
+    3
+  ],
+  "class_names": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "num_classes": 6,
+  "gradcam_target_layer": "block5_conv3",
+  "preprocessing_pipeline": "PIL RGB -> Bilinear (384, 384) -> Float32 [0, 255] -> Internal VGG16 caffe preprocessing",
+  "training_strategy": "2-Stage Transfer Learning (Stage 1: Frozen backbone; Stage 2: Block 5 fine-tuned at 384x384 with Photometric Augmentation & Head B MLP)",
+  "dataset_split_manifest": "ml/metadata/split_manifest_70_15_15.json",
+  "held_out_test_samples": 131,
+  "verified_validation_accuracy": 0.9160,
+  "verified_locked_test_accuracy": 0.8779,
+  "single_model_mode": true
+}

@@ -1,0 +1,171 @@
+{
+  "evaluation_status": "VERIFIED_DETERMINISTIC_SPLIT",
+  "validation_split_source": "ml/metadata/split_manifest.json",
+  "total_evaluation_samples": 178,
+  "num_classes": 6,
+  "classes": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "overall": {
+    "accuracy": 0.8539,
+    "precision_macro": 0.8856,
+    "recall_macro": 0.8275,
+    "f1_macro": 0.844,
+    "precision_weighted": 0.8666,
+    "recall_weighted": 0.8539,
+    "f1_weighted": 0.8496
+  },
+  "per_class": {
+    "Bird-drop": {
+      "precision": 0.7959,
+      "recall": 0.9512,
+      "f1_score": 0.8667,
+      "support": 41
+    },
+    "Clean": {
+      "precision": 0.7708,
+      "recall": 0.9487,
+      "f1_score": 0.8506,
+      "support": 39
+    },
+    "Dusty": {
+      "precision": 0.8966,
+      "recall": 0.6842,
+      "f1_score": 0.7761,
+      "support": 38
+    },
+    "Electrical-damage": {
+      "precision": 1.0,
+      "recall": 0.8095,
+      "f1_score": 0.8947,
+      "support": 21
+    },
+    "Physical-Damage": {
+      "precision": 0.8889,
+      "recall": 0.5714,
+      "f1_score": 0.6957,
+      "support": 14
+    },
+    "Snow-Covered": {
+      "precision": 0.9615,
+      "recall": 1.0,
+      "f1_score": 0.9804,
+      "support": 25
+    }
+  },
+  "confusion_matrix": {
+    "raw": [
+      [
+        39,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        37,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        7,
+        26,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        17,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        25
+      ]
+    ],
+    "normalized": [
+      [
+        0.9512,
+        0.0244,
+        0.0244,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9487,
+        0.0513,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0789,
+        0.1842,
+        0.6842,
+        0.0,
+        0.0263,
+        0.0263
+      ],
+      [
+        0.0952,
+        0.0952,
+        0.0,
+        0.8095,
+        0.0,
+        0.0
+      ],
+      [
+        0.3571,
+        0.0714,
+        0.0,
+        0.0,
+        0.5714,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "labels": [
+      "Bird-drop",
+      "Clean",
+      "Dusty",
+      "Electrical-damage",
+      "Physical-Damage",
+      "Snow-Covered"
+    ]
+  }
+}

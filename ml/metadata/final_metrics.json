@@ -1,0 +1,2339 @@
+{
+  "model_path": "ml/models/best_vgg16.keras",
+  "split": "test",
+  "sample_count": 131,
+  "classes": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "overall": {
+    "accuracy": 0.8779,
+    "macro_precision": 0.8555,
+    "macro_recall": 0.8711,
+    "macro_f1": 0.8594,
+    "weighted_precision": 0.8841,
+    "weighted_recall": 0.8779,
+    "weighted_f1": 0.8774
+  },
+  "per_class": {
+    "Bird-drop": {
+      "precision": 0.963,
+      "recall": 0.8387,
+      "f1_score": 0.8966,
+      "support": 31
+    },
+    "Clean": {
+      "precision": 0.8788,
+      "recall": 1.0,
+      "f1_score": 0.9355,
+      "support": 29
+    },
+    "Dusty": {
+      "precision": 0.8846,
+      "recall": 0.8214,
+      "f1_score": 0.8519,
+      "support": 28
+    },
+    "Electrical-damage": {
+      "precision": 0.7143,
+      "recall": 0.6667,
+      "f1_score": 0.6897,
+      "support": 15
+    },
+    "Physical-Damage": {
+      "precision": 0.6923,
+      "recall": 0.9,
+      "f1_score": 0.7826,
+      "support": 10
+    },
+    "Snow-Covered": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 18
+    }
+  },
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      0,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      23,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      10,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      18
+    ]
+  ],
+  "sample_records": [
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (96).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9986,
+      "correct": true,
+      "probabilities": [
+        0.9986,
+        0.0012,
+        0.0001,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (178).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9997,
+      "correct": true,
+      "probabilities": [
+        0.9997,
+        0.0,
+        0.0,
+        0.0,
+        0.0002,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (64).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9997,
+      "correct": true,
+      "probabilities": [
+        0.9997,
+        0.0,
+        0.0,
+        0.0,
+        0.0002,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/New/6.JPG",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9326,
+      "correct": true,
+      "probabilities": [
+        0.9326,
+        0.0476,
+        0.0078,
+        0.0003,
+        0.0115,
+        0.0002
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/New/5.JPG",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9893,
+      "correct": true,
+      "probabilities": [
+        0.9893,
+        0.0,
+        0.0104,
+        0.0,
+        0.0002,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (97).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9994,
+      "correct": true,
+      "probabilities": [
+        0.9994,
+        0.0,
+        0.0006,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (56).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9806,
+      "correct": true,
+      "probabilities": [
+        0.9806,
+        0.0,
+        0.0192,
+        0.0002,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (101).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9904,
+      "correct": true,
+      "probabilities": [
+        0.9904,
+        0.0003,
+        0.0,
+        0.0092,
+        0.0,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (37).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.7996,
+      "correct": false,
+      "probabilities": [
+        0.003,
+        0.0005,
+        0.0007,
+        0.7996,
+        0.1943,
+        0.0018
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (41).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.7996,
+      "correct": false,
+      "probabilities": [
+        0.003,
+        0.0005,
+        0.0007,
+        0.7996,
+        0.1943,
+        0.0018
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (164).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9911,
+      "correct": true,
+      "probabilities": [
+        0.9911,
+        0.0013,
+        0.0001,
+        0.0002,
+        0.0072,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (52).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9911,
+      "correct": true,
+      "probabilities": [
+        0.9911,
+        0.0013,
+        0.0001,
+        0.0002,
+        0.0072,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (58).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9911,
+      "correct": true,
+      "probabilities": [
+        0.9911,
+        0.0013,
+        0.0001,
+        0.0002,
+        0.0072,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (132).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.8526,
+      "correct": true,
+      "probabilities": [
+        0.8526,
+        0.0,
+        0.0,
+        0.0009,
+        0.1465,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (195).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.8526,
+      "correct": true,
+      "probabilities": [
+        0.8526,
+        0.0,
+        0.0,
+        0.0009,
+        0.1465,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (188).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9998,
+      "correct": true,
+      "probabilities": [
+        0.9998,
+        0.0,
+        0.0002,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (111).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.994,
+      "correct": true,
+      "probabilities": [
+        0.994,
+        0.0,
+        0.006,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/New/12.JPG",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9934,
+      "correct": true,
+      "probabilities": [
+        0.9934,
+        0.0,
+        0.0066,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (162).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.975,
+      "correct": true,
+      "probabilities": [
+        0.975,
+        0.0088,
+        0.0022,
+        0.0089,
+        0.0042,
+        0.0009
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (51).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.975,
+      "correct": true,
+      "probabilities": [
+        0.975,
+        0.0088,
+        0.0022,
+        0.0089,
+        0.0042,
+        0.0009
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (145).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.9999,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (44).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.9999,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (174).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9998,
+      "correct": true,
+      "probabilities": [
+        0.9998,
+        0.0001,
+        0.0001,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (38).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9998,
+      "correct": true,
+      "probabilities": [
+        0.9998,
+        0.0001,
+        0.0001,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (34).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9926,
+      "correct": true,
+      "probabilities": [
+        0.9926,
+        0.0001,
+        0.0023,
+        0.0002,
+        0.0042,
+        0.0006
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (159).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9996,
+      "correct": true,
+      "probabilities": [
+        0.9996,
+        0.0002,
+        0.0,
+        0.0,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (3).jpeg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.8843,
+      "correct": false,
+      "probabilities": [
+        0.0474,
+        0.0596,
+        0.0007,
+        0.0075,
+        0.8843,
+        0.0004
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (63).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.8911,
+      "correct": true,
+      "probabilities": [
+        0.8911,
+        0.0011,
+        0.0003,
+        0.0008,
+        0.1066,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (175).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.931,
+      "correct": false,
+      "probabilities": [
+        0.0009,
+        0.0623,
+        0.931,
+        0.0009,
+        0.0004,
+        0.0045
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (183).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.931,
+      "correct": false,
+      "probabilities": [
+        0.0009,
+        0.0623,
+        0.931,
+        0.0009,
+        0.0004,
+        0.0045
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (113).jpg",
+      "true_class": "Bird-drop",
+      "true_index": 0,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.7402,
+      "correct": false,
+      "probabilities": [
+        0.2521,
+        0.0068,
+        0.7402,
+        0.0002,
+        0.0003,
+        0.0004
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (143).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.6142,
+      "correct": true,
+      "probabilities": [
+        0.0092,
+        0.6142,
+        0.3291,
+        0.0312,
+        0.0155,
+        0.0008
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (31).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (95).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.7423,
+      "correct": true,
+      "probabilities": [
+        0.0007,
+        0.7423,
+        0.2561,
+        0.0,
+        0.0001,
+        0.0007
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (129).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9954,
+      "correct": true,
+      "probabilities": [
+        0.001,
+        0.9954,
+        0.0008,
+        0.0001,
+        0.0001,
+        0.0026
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (65).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9999,
+        0.0001,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (72).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9115,
+      "correct": true,
+      "probabilities": [
+        0.0003,
+        0.9115,
+        0.0874,
+        0.0,
+        0.0002,
+        0.0006
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (133).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.6955,
+      "correct": true,
+      "probabilities": [
+        0.0031,
+        0.6955,
+        0.0761,
+        0.1562,
+        0.0679,
+        0.0013
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (13).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9993,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9993,
+        0.0006,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (132).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9634,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9634,
+        0.036,
+        0.0,
+        0.0001,
+        0.0004
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (188).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9634,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9634,
+        0.036,
+        0.0,
+        0.0001,
+        0.0004
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (164).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.998,
+      "correct": true,
+      "probabilities": [
+        0.0007,
+        0.998,
+        0.0002,
+        0.0006,
+        0.0005,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (57).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.6462,
+      "correct": false,
+      "probabilities": [
+        0.1528,
+        0.131,
+        0.6462,
+        0.0597,
+        0.0019,
+        0.0085
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (142).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9977,
+      "correct": true,
+      "probabilities": [
+        0.0001,
+        0.9977,
+        0.0001,
+        0.0007,
+        0.0014,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (37).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.7729,
+      "correct": true,
+      "probabilities": [
+        0.009,
+        0.7729,
+        0.2148,
+        0.0001,
+        0.0008,
+        0.0025
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (165).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9999,
+        0.0001,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (55).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9465,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9465,
+        0.0401,
+        0.0,
+        0.0004,
+        0.013
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (36).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (168).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9692,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9692,
+        0.0293,
+        0.0015,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (139).JPG",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9999,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (29).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9995,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9995,
+        0.0005,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (44).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9892,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9892,
+        0.0001,
+        0.0,
+        0.0,
+        0.0106
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (40).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0001,
+        0.9999,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (9).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0001,
+        0.9999,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (27).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9656,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9656,
+        0.0003,
+        0.0333,
+        0.0005,
+        0.0003
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (94).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9984,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9984,
+        0.0004,
+        0.0002,
+        0.0009,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (83).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.6548,
+      "correct": true,
+      "probabilities": [
+        0.0037,
+        0.6548,
+        0.3404,
+        0.0001,
+        0.0007,
+        0.0003
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (80).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9735,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9735,
+        0.0001,
+        0.0003,
+        0.026,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (108).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9996,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9996,
+        0.0002,
+        0.0001,
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Clean/Clean (101).jpg",
+      "true_class": "Clean",
+      "true_index": 1,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9996,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.9996,
+        0.0004,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (170).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.999,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0007,
+        0.999,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (87).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9992,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0005,
+        0.9992,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (168).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.7933,
+      "correct": true,
+      "probabilities": [
+        0.1684,
+        0.0027,
+        0.7933,
+        0.0,
+        0.0002,
+        0.0353
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (77).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9289,
+      "correct": false,
+      "probabilities": [
+        0.0,
+        0.9289,
+        0.071,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (53).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9998,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0002,
+        0.9998,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (145).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.7584,
+      "correct": true,
+      "probabilities": [
+        0.0011,
+        0.2403,
+        0.7584,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (11).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.9553,
+      "correct": false,
+      "probabilities": [
+        0.0419,
+        0.0003,
+        0.0002,
+        0.0023,
+        0.9553,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (23).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.9553,
+      "correct": false,
+      "probabilities": [
+        0.0419,
+        0.0003,
+        0.0002,
+        0.0023,
+        0.9553,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (156).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.6899,
+      "correct": true,
+      "probabilities": [
+        0.2403,
+        0.0067,
+        0.6899,
+        0.0,
+        0.0619,
+        0.0012
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (3).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9996,
+      "correct": true,
+      "probabilities": [
+        0.0001,
+        0.0003,
+        0.9996,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (65).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9998,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0002,
+        0.9998,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (59).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9997,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0002,
+        0.9997,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (70).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9997,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0001,
+        0.9997,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (152).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0001,
+        0.9999,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (66).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9996,
+      "correct": false,
+      "probabilities": [
+        0.0,
+        0.9996,
+        0.0004,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (133).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.6715,
+      "correct": true,
+      "probabilities": [
+        0.0829,
+        0.1644,
+        0.6715,
+        0.0019,
+        0.0781,
+        0.0012
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (104).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9897,
+      "correct": true,
+      "probabilities": [
+        0.0014,
+        0.0088,
+        0.9897,
+        0.0,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (72).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9917,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0082,
+        0.9917,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (20).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.9843,
+      "correct": false,
+      "probabilities": [
+        0.9843,
+        0.0068,
+        0.0033,
+        0.0017,
+        0.0026,
+        0.0014
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (132).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9684,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0316,
+        0.9684,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (51).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9886,
+      "correct": true,
+      "probabilities": [
+        0.0072,
+        0.0041,
+        0.9886,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (24).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.9246,
+      "correct": true,
+      "probabilities": [
+        0.0238,
+        0.0095,
+        0.9246,
+        0.0004,
+        0.0411,
+        0.0005
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (105).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.996,
+      "correct": true,
+      "probabilities": [
+        0.0003,
+        0.0037,
+        0.996,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (26).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.996,
+      "correct": true,
+      "probabilities": [
+        0.0003,
+        0.0037,
+        0.996,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (39).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.8506,
+      "correct": true,
+      "probabilities": [
+        0.0537,
+        0.0148,
+        0.8506,
+        0.0704,
+        0.0078,
+        0.0027
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (154).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.7827,
+      "correct": false,
+      "probabilities": [
+        0.0635,
+        0.7827,
+        0.1302,
+        0.0002,
+        0.0234,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (74).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9285,
+      "correct": false,
+      "probabilities": [
+        0.0005,
+        0.9285,
+        0.0709,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Dusty/Dust (138).jpg",
+      "true_class": "Dusty",
+      "true_index": 2,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (86).JPG",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9437,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0453,
+        0.0006,
+        0.9437,
+        0.0104,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (2).png",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9673,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0258,
+        0.0011,
+        0.9673,
+        0.0055,
+        0.0002
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (95).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9994,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0006,
+        0.0,
+        0.9994,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (3).JPG",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9999,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0001,
+        0.0,
+        0.9999,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (71).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.6479,
+      "correct": true,
+      "probabilities": [
+        0.0563,
+        0.0877,
+        0.1879,
+        0.6479,
+        0.0,
+        0.0202
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (61).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (5).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9196,
+      "correct": false,
+      "probabilities": [
+        0.0,
+        0.9196,
+        0.0001,
+        0.0803,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (22).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.4117,
+      "correct": true,
+      "probabilities": [
+        0.0073,
+        0.3992,
+        0.0017,
+        0.4117,
+        0.179,
+        0.0011
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (72).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Clean",
+      "predicted_index": 1,
+      "confidence": 0.9579,
+      "correct": false,
+      "probabilities": [
+        0.0346,
+        0.9579,
+        0.0039,
+        0.0,
+        0.0001,
+        0.0035
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (66).JPG",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9858,
+      "correct": true,
+      "probabilities": [
+        0.0006,
+        0.0004,
+        0.0132,
+        0.9858,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (52).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.992,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0079,
+        0.0,
+        0.992,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (39).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9773,
+      "correct": true,
+      "probabilities": [
+        0.0223,
+        0.0004,
+        0.0,
+        0.9773,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (11).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9947,
+      "correct": true,
+      "probabilities": [
+        0.0002,
+        0.0004,
+        0.0046,
+        0.9947,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (4).JPG",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.4637,
+      "correct": true,
+      "probabilities": [
+        0.0025,
+        0.1288,
+        0.3623,
+        0.4637,
+        0.0001,
+        0.0426
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (15).jpg",
+      "true_class": "Electrical-damage",
+      "true_index": 3,
+      "predicted_class": "Electrical-damage",
+      "predicted_index": 3,
+      "confidence": 0.9972,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0022,
+        0.0006,
+        0.9972,
+        0.0001,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (8).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (19).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (59).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (15).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (69).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (44).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.7744,
+      "correct": true,
+      "probabilities": [
+        0.1044,
+        0.1104,
+        0.0008,
+        0.0091,
+        0.7744,
+        0.0009
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (46).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.6951,
+      "correct": false,
+      "probabilities": [
+        0.0,
+        0.0002,
+        0.0,
+        0.0,
+        0.3046,
+        0.6951
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (45).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.9616,
+      "correct": true,
+      "probabilities": [
+        0.0014,
+        0.0056,
+        0.0307,
+        0.0001,
+        0.9616,
+        0.0005
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (58).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Bird-drop",
+      "predicted_index": 0,
+      "confidence": 0.5941,
+      "correct": false,
+      "probabilities": [
+        0.5941,
+        0.0045,
+        0.0936,
+        0.1007,
+        0.1832,
+        0.0238
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (37).jpg",
+      "true_class": "Physical-Damage",
+      "true_index": 4,
+      "predicted_class": "Physical-Damage",
+      "predicted_index": 4,
+      "confidence": 0.8674,
+      "correct": true,
+      "probabilities": [
+        0.0004,
+        0.0116,
+        0.0004,
+        0.1184,
+        0.8674,
+        0.0018
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (96).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (72).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (60).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (71).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Dusty",
+      "predicted_index": 2,
+      "confidence": 0.975,
+      "correct": false,
+      "probabilities": [
+        0.0,
+        0.0071,
+        0.975,
+        0.0,
+        0.0,
+        0.0179
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (15).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (27).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.9513,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0463,
+        0.0019,
+        0.0002,
+        0.0003,
+        0.9513
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (34).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.9933,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0051,
+        0.0003,
+        0.0011,
+        0.0001,
+        0.9933
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (5).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (82).JPG",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.9993,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0002,
+        0.0005,
+        0.0,
+        0.0,
+        0.9993
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (49).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (11).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (47).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.9952,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0047,
+        0.0001,
+        0.0,
+        0.0,
+        0.9952
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (46).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (68).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (69).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (123).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (1).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 0.9897,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0103,
+        0.0,
+        0.0,
+        0.9897
+      ]
+    },
+    {
+      "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (52).jpg",
+      "true_class": "Snow-Covered",
+      "true_index": 5,
+      "predicted_class": "Snow-Covered",
+      "predicted_index": 5,
+      "confidence": 1.0,
+      "correct": true,
+      "probabilities": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

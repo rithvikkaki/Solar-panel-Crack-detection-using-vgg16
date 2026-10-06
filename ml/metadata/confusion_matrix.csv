@@ -1,0 +1,7 @@
+True_Class,Bird-drop,Clean,Dusty,Electrical-damage,Physical-Damage,Snow-Covered
+Bird-drop,39,1,1,0,0,0
+Clean,0,37,2,0,0,0
+Dusty,3,7,26,0,1,1
+Electrical-damage,2,2,0,17,0,0
+Physical-Damage,5,1,0,0,8,0
+Snow-Covered,0,0,0,0,0,25

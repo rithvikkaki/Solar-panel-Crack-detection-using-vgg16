@@ -1,0 +1,48 @@
+{
+  "total_images": 885,
+  "num_classes": 6,
+  "classes": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "class_counts": {
+    "Bird-drop": 207,
+    "Clean": 193,
+    "Dusty": 190,
+    "Electrical-damage": 103,
+    "Physical-Damage": 69,
+    "Snow-Covered": 123
+  },
+  "corrupted_count": 0,
+  "corrupted_files": [],
+  "top_resolutions": [
+    [
+      "720x960",
+      58
+    ],
+    [
+      "2048x1152",
+      23
+    ],
+    [
+      "1536x2048",
+      22
+    ],
+    [
+      "474x355",
+      22
+    ],
+    [
+      "2048x1536",
+      22
+    ]
+  ],
+  "channel_modes": {
+    "RGB": 866,
+    "RGBA": 19
+  }
+}

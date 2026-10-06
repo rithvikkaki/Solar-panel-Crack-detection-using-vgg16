@@ -1,0 +1,46 @@
+{
+  "total_files_audited": 885,
+  "corrupted_files": 0,
+  "unique_sha256": 794,
+  "hash_leakage_across_splits": 0,
+  "splits": {
+    "train": {
+      "count": 623,
+      "distribution": {
+        "Bird-drop": 147,
+        "Clean": 135,
+        "Dusty": 133,
+        "Electrical-damage": 73,
+        "Physical-Damage": 48,
+        "Snow-Covered": 87
+      }
+    },
+    "val": {
+      "count": 131,
+      "distribution": {
+        "Bird-drop": 31,
+        "Clean": 29,
+        "Dusty": 28,
+        "Electrical-damage": 15,
+        "Physical-Damage": 10,
+        "Snow-Covered": 18
+      }
+    },
+    "test": {
+      "count": 131,
+      "distribution": {
+        "Bird-drop": 31,
+        "Clean": 29,
+        "Dusty": 28,
+        "Electrical-damage": 15,
+        "Physical-Damage": 10,
+        "Snow-Covered": 18
+      }
+    }
+  },
+  "imbalance_ratio": {
+    "max_class": "Bird-drop (147 in train)",
+    "min_class": "Physical-Damage (48 in train)",
+    "ratio": 3.06
+  }
+}

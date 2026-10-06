@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "Bird-drop",
+    "Clean",
+    "Dusty",
+    "Electrical-damage",
+    "Physical-Damage",
+    "Snow-Covered"
+  ],
+  "num_classes": 6,
+  "class_to_idx": {
+    "Bird-drop": 0,
+    "Clean": 1,
+    "Dusty": 2,
+    "Electrical-damage": 3,
+    "Physical-Damage": 4,
+    "Snow-Covered": 5
+  },
+  "idx_to_class": {
+    "0": "Bird-drop",
+    "1": "Clean",
+    "2": "Dusty",
+    "3": "Electrical-damage",
+    "4": "Physical-Damage",
+    "5": "Snow-Covered"
+  }
+}

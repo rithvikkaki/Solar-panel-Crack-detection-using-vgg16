@@ -1,0 +1,117 @@
+{
+  "accuracy": 0.8779,
+  "macro_f1": 0.8594,
+  "weighted_f1": 0.8774,
+  "precision_macro": 0.8555,
+  "recall_macro": 0.8711,
+  "physical_damage_recall": 0.9,
+  "physical_damage_f1": 0.7826,
+  "per_class": {
+    "Bird-drop": {
+      "precision": 0.963,
+      "recall": 0.8387,
+      "f1": 0.8966,
+      "support": 31
+    },
+    "Clean": {
+      "precision": 0.8788,
+      "recall": 1.0,
+      "f1": 0.9355,
+      "support": 29
+    },
+    "Dusty": {
+      "precision": 0.8846,
+      "recall": 0.8214,
+      "f1": 0.8519,
+      "support": 28
+    },
+    "Electrical-damage": {
+      "precision": 0.7143,
+      "recall": 0.6667,
+      "f1": 0.6897,
+      "support": 15
+    },
+    "Physical-Damage": {
+      "precision": 0.6923,
+      "recall": 0.9,
+      "f1": 0.7826,
+      "support": 10
+    },
+    "Snow-Covered": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 18
+    }
+  },
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      0,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      29,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      23,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      2,
+      10,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      18
+    ]
+  ],
+  "evaluation_status": "FINAL_LOCKED_TEST_SET_EVALUATION",
+  "model_id": "vgg16_res384_block5_production",
+  "architecture": "VGG16",
+  "input_shape": [
+    384,
+    384,
+    3
+  ],
+  "gradcam_target_layer": "block5_conv3",
+  "test_samples": 131,
+  "total_test_samples": 131,
+  "overall": {
+    "accuracy": 0.8779,
+    "macro_f1": 0.8594,
+    "weighted_f1": 0.8774,
+    "precision_macro": 0.8555,
+    "recall_macro": 0.8711,
+    "precision_weighted": 0.8835,
+    "recall_weighted": 0.8779
+  }
+}

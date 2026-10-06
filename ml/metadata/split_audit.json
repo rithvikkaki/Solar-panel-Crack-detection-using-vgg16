@@ -1,0 +1,40 @@
+{
+  "manifest_file": "ml/metadata/split_manifest_70_15_15.json",
+  "random_seed": 42,
+  "protocol": "70_15_15_hash_grouped_stratified",
+  "total_samples": 885,
+  "split_counts": {
+    "train": 623,
+    "val": 131,
+    "test": 131
+  },
+  "class_distribution": {
+    "train": {
+      "Bird-drop": 147,
+      "Clean": 135,
+      "Dusty": 133,
+      "Electrical-damage": 73,
+      "Physical-Damage": 48,
+      "Snow-Covered": 87
+    },
+    "val": {
+      "Bird-drop": 31,
+      "Clean": 29,
+      "Dusty": 28,
+      "Electrical-damage": 15,
+      "Physical-Damage": 10,
+      "Snow-Covered": 18
+    },
+    "test": {
+      "Bird-drop": 31,
+      "Clean": 29,
+      "Dusty": 28,
+      "Electrical-damage": 15,
+      "Physical-Damage": 10,
+      "Snow-Covered": 18
+    }
+  },
+  "path_overlap_count": 0,
+  "hash_leakage_groups_count": 0,
+  "data_leakage_detected": false
+}

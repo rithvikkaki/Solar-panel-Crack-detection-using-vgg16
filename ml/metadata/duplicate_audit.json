@@ -1,0 +1,161 @@
+{
+  "dataset_directory": "C:/Users/victus/Downloads/Solar-panel-Crack-detection-using-vgg16-main/dataset/Faulty_solar_panel",
+  "total_images_scanned": 885,
+  "unique_images_by_hash": 794,
+  "duplicate_hash_groups": 74,
+  "total_duplicate_redundant_files": 91,
+  "intra_class_duplicate_groups": 72,
+  "cross_class_duplicate_groups": 2,
+  "split_manifest_checked": true,
+  "split_leakage_detected": false,
+  "split_leakage_count": 0,
+  "split_leakages": [],
+  "cross_class_duplicates": [
+    {
+      "sha256": "7cfbb65375f6afbd0a5f7fd5c766f0034022758df8102d7e4a90960ec4a2d0be",
+      "count": 6,
+      "classes": [
+        "Bird-drop",
+        "Physical-Damage"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (176).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (184).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (22).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (46).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (57).jpg",
+        "dataset/Faulty_solar_panel/Physical-Damage/Physical (51).jpg"
+      ]
+    },
+    {
+      "sha256": "8489abf5495e2bbed4230369cdcbd67484f0afb6669043ce1043ecdeca3793e2",
+      "count": 2,
+      "classes": [
+        "Bird-drop",
+        "Dusty"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (193).jpg",
+        "dataset/Faulty_solar_panel/Dusty/Dust (187).jpg"
+      ]
+    }
+  ],
+  "sample_intra_class_duplicates": [
+    {
+      "sha256": "5ced9ca7cb1649755caf6b3f61e0950c9d82cca201fb3764eece5bd8434f281e",
+      "count": 4,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (10).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (4).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (40).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (8).jpg"
+      ]
+    },
+    {
+      "sha256": "041d14eff31334e369af9c6d8fc191a7ab4e73ed19f0971e24f2ca780624c1c8",
+      "count": 3,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (103).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (80).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (99).jpg"
+      ]
+    },
+    {
+      "sha256": "17d63fb73e240b6c02ca94b1624fb51547d0fc5e5e7fc1ebb2cefe9dc09c0503",
+      "count": 2,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (107).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (118).jpg"
+      ]
+    },
+    {
+      "sha256": "e0d796ce236dca176aa14bf1f31f61cda668d4282b12b527c1a620cf04a705f6",
+      "count": 2,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (108).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (13).jpg"
+      ]
+    },
+    {
+      "sha256": "4c511f2776d7a038fbe9cd9609f5523d6c8d4f5b004e4e3005e67fe0c99de807",
+      "count": 2,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (109).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (121).jpg"
+      ]
+    },
+    {
+      "sha256": "31e8e38409f84775272c41ef916e565d4e6339cde6b2ced53f92d0c4d70fc139",
+      "count": 3,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (11).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (133).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (168).jpg"
+      ]
+    },
+    {
+      "sha256": "cc9a971b817e83bf9704e4fe3533c4d430c7065738b433ee6a60bdee4674d835",
+      "count": 3,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (110).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (116).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (76).jpg"
+      ]
+    },
+    {
+      "sha256": "de7595f18269aa71101f558dab8dec337ab2e8e65e22318d79107f20c18f657d",
+      "count": 2,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (112).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (30).jpg"
+      ]
+    },
+    {
+      "sha256": "f9dfcba324d884c276e5cee7542b1c2708918708d3671d9cd7faf4ce30c15826",
+      "count": 2,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (117).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (77).jpg"
+      ]
+    },
+    {
+      "sha256": "e1cb0e8f49ce1a715747029e07abea7e60092c5360e61aec0e4b8a636890d987",
+      "count": 3,
+      "classes": [
+        "Bird-drop"
+      ],
+      "files": [
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (119).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (79).jpg",
+        "dataset/Faulty_solar_panel/Bird-drop/Bird (86).jpg"
+      ]
+    }
+  ]
+}

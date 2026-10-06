@@ -1,0 +1,201 @@
+[
+  {
+    "test_case": "Bird-drop",
+    "file_path": "dataset/Faulty_solar_panel/Bird-drop/Bird (1).jpeg",
+    "http_status": 200,
+    "predicted_condition": "Bird-drop",
+    "confidence": 0.9524,
+    "class_probabilities": {
+      "Bird-drop": 0.9524,
+      "Clean": 0.0116,
+      "Dusty": 0.0295,
+      "Electrical-damage": 0.0035,
+      "Physical-Damage": 0.0025,
+      "Snow-Covered": 0.0004
+    },
+    "prob_sum": 0.9999,
+    "gradcam_target_class": "Bird-drop",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 68,
+    "risk_level": "MEDIUM"
+  },
+  {
+    "test_case": "Clean",
+    "file_path": "dataset/Faulty_solar_panel/Clean/Clean (1).jpeg",
+    "http_status": 200,
+    "predicted_condition": "Clean",
+    "confidence": 0.8775,
+    "class_probabilities": {
+      "Bird-drop": 0.0252,
+      "Clean": 0.8775,
+      "Dusty": 0.0691,
+      "Electrical-damage": 0.0071,
+      "Physical-Damage": 0.014,
+      "Snow-Covered": 0.0071
+    },
+    "prob_sum": 1.0,
+    "gradcam_target_class": "Clean",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 98,
+    "risk_level": "LOW"
+  },
+  {
+    "test_case": "Dusty",
+    "file_path": "dataset/Faulty_solar_panel/Dusty/Dust (1).jpg",
+    "http_status": 200,
+    "predicted_condition": "Dusty",
+    "confidence": 0.6479,
+    "class_probabilities": {
+      "Bird-drop": 0.1482,
+      "Clean": 0.0315,
+      "Dusty": 0.6479,
+      "Electrical-damage": 0.0009,
+      "Physical-Damage": 0.0284,
+      "Snow-Covered": 0.143
+    },
+    "prob_sum": 0.9999,
+    "gradcam_target_class": "Dusty",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 82,
+    "risk_level": "LOW"
+  },
+  {
+    "test_case": "Electrical-damage",
+    "file_path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (1).jpg",
+    "http_status": 200,
+    "predicted_condition": "Electrical-damage",
+    "confidence": 0.9709,
+    "class_probabilities": {
+      "Bird-drop": 0.0157,
+      "Clean": 0.0122,
+      "Dusty": 0.0,
+      "Electrical-damage": 0.9709,
+      "Physical-Damage": 0.0012,
+      "Snow-Covered": 0.0
+    },
+    "prob_sum": 1.0,
+    "gradcam_target_class": "Electrical-damage",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 25,
+    "risk_level": "HIGH"
+  },
+  {
+    "test_case": "Physical-Damage_1",
+    "file_path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (1).jpg",
+    "http_status": 200,
+    "predicted_condition": "Bird-drop",
+    "confidence": 0.6879,
+    "class_probabilities": {
+      "Bird-drop": 0.6879,
+      "Clean": 0.0075,
+      "Dusty": 0.2725,
+      "Electrical-damage": 0.0002,
+      "Physical-Damage": 0.0255,
+      "Snow-Covered": 0.0064
+    },
+    "prob_sum": 1.0,
+    "gradcam_target_class": "Bird-drop",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 68,
+    "risk_level": "MEDIUM"
+  },
+  {
+    "test_case": "Physical-Damage_2",
+    "file_path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (2).jpg",
+    "http_status": 200,
+    "predicted_condition": "Dusty",
+    "confidence": 0.3454,
+    "class_probabilities": {
+      "Bird-drop": 0.3266,
+      "Clean": 0.1798,
+      "Dusty": 0.3454,
+      "Electrical-damage": 0.0147,
+      "Physical-Damage": 0.0633,
+      "Snow-Covered": 0.0702
+    },
+    "prob_sum": 1.0,
+    "gradcam_target_class": "Dusty",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 82,
+    "risk_level": "LOW"
+  },
+  {
+    "test_case": "Physical-Damage_3",
+    "file_path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (3).jpg",
+    "http_status": 200,
+    "predicted_condition": "Physical-Damage",
+    "confidence": 0.8718,
+    "class_probabilities": {
+      "Bird-drop": 0.0049,
+      "Clean": 0.0001,
+      "Dusty": 0.0493,
+      "Electrical-damage": 0.0,
+      "Physical-Damage": 0.8718,
+      "Snow-Covered": 0.074
+    },
+    "prob_sum": 1.0001,
+    "gradcam_target_class": "Physical-Damage",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 15,
+    "risk_level": "CRITICAL"
+  },
+  {
+    "test_case": "Snow-Covered",
+    "file_path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (1).jpg",
+    "http_status": 200,
+    "predicted_condition": "Snow-Covered",
+    "confidence": 1.0,
+    "class_probabilities": {
+      "Bird-drop": 0.0,
+      "Clean": 0.0,
+      "Dusty": 0.0,
+      "Electrical-damage": 0.0,
+      "Physical-Damage": 0.0,
+      "Snow-Covered": 1.0
+    },
+    "prob_sum": 1.0,
+    "gradcam_target_class": "Snow-Covered",
+    "gradcam_layer": "block5_conv3",
+    "has_original_base64": true,
+    "has_heatmap_base64": true,
+    "has_overlay_base64": true,
+    "health_score": 45,
+    "risk_level": "MEDIUM"
+  },
+  {
+    "test_case": "empty_file",
+    "http_status": 422,
+    "detail": "Uploaded file is empty (0 bytes)."
+  },
+  {
+    "test_case": "corrupt_file",
+    "http_status": 422,
+    "detail": "Corrupted or non-decodable image file: cannot identify image file <_io.BytesIO object at 0x000001D4BE221620>"
+  },
+  {
+    "test_case": "txt_file",
+    "http_status": 422,
+    "detail": "Unsupported file extension '.txt'. Allowed extensions: ['.jpg', '.jpeg', '.png', '.webp']"
+  }
+]

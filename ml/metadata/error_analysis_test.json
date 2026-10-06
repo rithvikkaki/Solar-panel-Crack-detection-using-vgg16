@@ -1,0 +1,358 @@
+{
+  "split": "test",
+  "total_samples": 131,
+  "error_count": 19,
+  "error_rate": 0.145,
+  "top_confusion_pairs": [
+    {
+      "pair": "Dusty -> Clean",
+      "count": 4
+    },
+    {
+      "pair": "Bird-drop -> Dusty",
+      "count": 3
+    },
+    {
+      "pair": "Bird-drop -> Electrical-damage",
+      "count": 2
+    },
+    {
+      "pair": "Dusty -> Physical-Damage",
+      "count": 2
+    },
+    {
+      "pair": "Electrical-damage -> Clean",
+      "count": 2
+    },
+    {
+      "pair": "Bird-drop -> Physical-Damage",
+      "count": 1
+    },
+    {
+      "pair": "Clean -> Dusty",
+      "count": 1
+    },
+    {
+      "pair": "Dusty -> Bird-drop",
+      "count": 1
+    },
+    {
+      "pair": "Physical-Damage -> Snow-Covered",
+      "count": 1
+    },
+    {
+      "pair": "Physical-Damage -> Bird-drop",
+      "count": 1
+    },
+    {
+      "pair": "Snow-Covered -> Dusty",
+      "count": 1
+    }
+  ],
+  "detailed_diagnostics": [
+    {
+      "confusion_pair": "Dusty -> Clean",
+      "error_count": 4,
+      "percentage_of_all_errors": 21.05,
+      "physical_root_cause": "Fine uniform dust layer lacks high-frequency edges; high glare mimics clean glass reflectance.",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (77).jpg",
+          "confidence": 0.9289,
+          "probabilities": [
+            0.0,
+            0.9289,
+            0.071,
+            0.0,
+            0.0001,
+            0.0
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (66).jpg",
+          "confidence": 0.9996,
+          "probabilities": [
+            0.0,
+            0.9996,
+            0.0004,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (154).jpg",
+          "confidence": 0.7827,
+          "probabilities": [
+            0.0635,
+            0.7827,
+            0.1302,
+            0.0002,
+            0.0234,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Bird-drop -> Dusty",
+      "error_count": 3,
+      "percentage_of_all_errors": 15.79,
+      "physical_root_cause": "Dried diffuse organic matter visually resembles localized dust crusts.",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (175).jpg",
+          "confidence": 0.931,
+          "probabilities": [
+            0.0009,
+            0.0623,
+            0.931,
+            0.0009,
+            0.0004,
+            0.0045
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (183).jpg",
+          "confidence": 0.931,
+          "probabilities": [
+            0.0009,
+            0.0623,
+            0.931,
+            0.0009,
+            0.0004,
+            0.0045
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (113).jpg",
+          "confidence": 0.7402,
+          "probabilities": [
+            0.2521,
+            0.0068,
+            0.7402,
+            0.0002,
+            0.0003,
+            0.0004
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Bird-drop -> Electrical-damage",
+      "error_count": 2,
+      "percentage_of_all_errors": 10.53,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (37).jpg",
+          "confidence": 0.7996,
+          "probabilities": [
+            0.003,
+            0.0005,
+            0.0007,
+            0.7996,
+            0.1943,
+            0.0018
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (41).jpg",
+          "confidence": 0.7996,
+          "probabilities": [
+            0.003,
+            0.0005,
+            0.0007,
+            0.7996,
+            0.1943,
+            0.0018
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Dusty -> Physical-Damage",
+      "error_count": 2,
+      "percentage_of_all_errors": 10.53,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (11).jpg",
+          "confidence": 0.9553,
+          "probabilities": [
+            0.0419,
+            0.0003,
+            0.0002,
+            0.0023,
+            0.9553,
+            0.0
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (23).jpg",
+          "confidence": 0.9553,
+          "probabilities": [
+            0.0419,
+            0.0003,
+            0.0002,
+            0.0023,
+            0.9553,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Electrical-damage -> Clean",
+      "error_count": 2,
+      "percentage_of_all_errors": 10.53,
+      "physical_root_cause": "Subtle busbar discoloration or micro-cracks lack macroscopic contrast at standard input resolution.",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (5).jpg",
+          "confidence": 0.9196,
+          "probabilities": [
+            0.0,
+            0.9196,
+            0.0001,
+            0.0803,
+            0.0001,
+            0.0
+          ]
+        },
+        {
+          "path": "dataset/Faulty_solar_panel/Electrical-damage/Electrical (72).jpg",
+          "confidence": 0.9579,
+          "probabilities": [
+            0.0346,
+            0.9579,
+            0.0039,
+            0.0,
+            0.0001,
+            0.0035
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Bird-drop -> Physical-Damage",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Bird-drop/Bird (3).jpeg",
+          "confidence": 0.8843,
+          "probabilities": [
+            0.0474,
+            0.0596,
+            0.0007,
+            0.0075,
+            0.8843,
+            0.0004
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Clean -> Dusty",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Reflected environmental shadows or non-uniform daylight gradient mistaken for dust accumulation.",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Clean/Clean (57).jpg",
+          "confidence": 0.6462,
+          "probabilities": [
+            0.1528,
+            0.131,
+            0.6462,
+            0.0597,
+            0.0019,
+            0.0085
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Dusty -> Bird-drop",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Dusty/Dust (20).jpg",
+          "confidence": 0.9843,
+          "probabilities": [
+            0.9843,
+            0.0068,
+            0.0033,
+            0.0017,
+            0.0026,
+            0.0014
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Physical-Damage -> Snow-Covered",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (46).jpg",
+          "confidence": 0.6951,
+          "probabilities": [
+            0.0,
+            0.0002,
+            0.0,
+            0.0,
+            0.3046,
+            0.6951
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Physical-Damage -> Bird-drop",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Localized shattered glass impact craters share irregular geometric contours with splattered bird droppings.",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Physical-Damage/Physical (58).jpg",
+          "confidence": 0.5941,
+          "probabilities": [
+            0.5941,
+            0.0045,
+            0.0936,
+            0.1007,
+            0.1832,
+            0.0238
+          ]
+        }
+      ]
+    },
+    {
+      "confusion_pair": "Snow-Covered -> Dusty",
+      "error_count": 1,
+      "percentage_of_all_errors": 5.26,
+      "physical_root_cause": "Unknown / Feature Ambiguity",
+      "examples": [
+        {
+          "path": "dataset/Faulty_solar_panel/Snow-Covered/Snow (71).jpg",
+          "confidence": 0.975,
+          "probabilities": [
+            0.0,
+            0.0071,
+            0.975,
+            0.0,
+            0.0,
+            0.0179
+          ]
+        }
+      ]
+    }
+  ]
+}

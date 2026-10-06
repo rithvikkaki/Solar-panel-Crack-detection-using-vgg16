@@ -1,0 +1,99 @@
+[
+  {
+    "class_name": "Bird-drop",
+    "support": 41,
+    "precision": 0.7959,
+    "recall": 0.9512,
+    "f1_score": 0.8667,
+    "common_confusions": [
+      {
+        "misclassified_as": "Clean",
+        "count": 1
+      },
+      {
+        "misclassified_as": "Dusty",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "class_name": "Clean",
+    "support": 39,
+    "precision": 0.7708,
+    "recall": 0.9487,
+    "f1_score": 0.8506,
+    "common_confusions": [
+      {
+        "misclassified_as": "Dusty",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "class_name": "Dusty",
+    "support": 38,
+    "precision": 0.8966,
+    "recall": 0.6842,
+    "f1_score": 0.7761,
+    "common_confusions": [
+      {
+        "misclassified_as": "Clean",
+        "count": 7
+      },
+      {
+        "misclassified_as": "Bird-drop",
+        "count": 3
+      },
+      {
+        "misclassified_as": "Physical-Damage",
+        "count": 1
+      },
+      {
+        "misclassified_as": "Snow-Covered",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "class_name": "Electrical-damage",
+    "support": 21,
+    "precision": 1.0,
+    "recall": 0.8095,
+    "f1_score": 0.8947,
+    "common_confusions": [
+      {
+        "misclassified_as": "Bird-drop",
+        "count": 2
+      },
+      {
+        "misclassified_as": "Clean",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "class_name": "Physical-Damage",
+    "support": 14,
+    "precision": 0.8889,
+    "recall": 0.5714,
+    "f1_score": 0.6957,
+    "common_confusions": [
+      {
+        "misclassified_as": "Bird-drop",
+        "count": 5
+      },
+      {
+        "misclassified_as": "Clean",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "class_name": "Snow-Covered",
+    "support": 25,
+    "precision": 0.9615,
+    "recall": 1.0,
+    "f1_score": 0.9804,
+    "common_confusions": []
+  }
+]

@@ -1,0 +1,12 @@
+# SolarSentinel AI - Machine Learning & Inference Dependencies
+# Compatible with Python 3.10+ on Windows / Linux / macOS
+
+tensorflow-cpu>=2.15.0; sys_platform == 'win32'
+tensorflow>=2.15.0; sys_platform != 'win32'
+keras>=3.0.0
+numpy>=1.23.5,<2.3.0
+pillow>=9.5.0
+opencv-python>=4.8.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+dataclasses-json>=0.6.0
