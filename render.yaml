@@ -1,0 +1,19 @@
+# SolarSentinel AI - Render Free Web Service Blueprint
+# Platform: Render Free Tier (CPU: 0.1 vCPU, 512 MB RAM)
+# Documentation: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: solarsentinel-ai-backend
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    envVars:
+      - key: TF_ENABLE_ONEDNN_OPTS
+        value: "0"
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "3"
+      - key: APP_ENV
+        value: "production"
