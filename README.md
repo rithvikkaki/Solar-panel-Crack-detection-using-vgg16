@@ -326,12 +326,12 @@ cd frontend && npm run dev
 ## 17. Deployment
 
 ### Live Demo
-Frontend: `[to be filled after deployment]`  
-Backend: `[to be filled after deployment]`
+Frontend: [https://solarsentinel-ai-seven.vercel.app](https://solarsentinel-ai-seven.vercel.app)  
+Backend: [https://8000-01m4fyp6jp62zt2w4cfk9y9k41.cloudspaces.litng.ai](https://8000-01m4fyp6jp62zt2w4cfk9y9k41.cloudspaces.litng.ai)
 
 ### Architecture
 React/Vercel  
-→ FastAPI/Hugging Face  
+→ FastAPI/Lightning AI  
 → VGG16 384x384  
 → Grad-CAM  
 
